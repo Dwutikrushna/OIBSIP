@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./l2task3/public/intern.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a59b9b09ab.js" crossorigin="anonymous"></script>
+    <title>Temprature</title>
+    <link rel="stylesheet" type="text/css" href="/src/style/style.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="hed">Temperature convrter</div>
+        <div class="boxcontainer">
+            <div class="box1">
+                <p>Degree</p>
+                <input id="boxs" type="number" class="takval" />
+            </div>
+            <div class="box1">
+                <p>Type</p>
+                <select class="boxss" name="" id="unit">
+                    <option value="Celsius">Celsius</option>
+                    <option value="Fahrenheit">Fahrenheit</option>
+                </select>
+            </div>
+        </div>
+        <div class="valuecontainer">
+            <p>Result</p>
+            <div id="Result" class="value"></div>
+        </div>
+        <button onclick="temprature()" class="button">Convert</button>
+    </div>
+    <script src="/src/script/script.js"></script>
+</body>
+</html>
